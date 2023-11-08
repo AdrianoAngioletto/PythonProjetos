@@ -20,8 +20,6 @@ class PrimeiroPy:
         
         self.label_fundo.place(relwidth=1, relheight=1)
         
-        self.janela.configure(bg='blue')   
-        
         self.janela.geometry("800x600")
         
         self.janela.title("Cotando Dolar")   
@@ -30,7 +28,7 @@ class PrimeiroPy:
         
         self.botao.pack()
         
-        self.texto = Label(self.janela, text='')  # Adicione este widget Label
+        self.texto = Label(self.janela, text='')  
         
         self.texto.pack()
                           
